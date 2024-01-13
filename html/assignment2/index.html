@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title>
+    <title>Registeration form</title>
+    <style>
+        body {
+            padding-top: 10px;
+        }
+
+        a {
+            color: red;
+            float: right;
+
+        }
+
+        input[type=text] {
+            width: 70%;
+            padding: 10px;
+            border: 1px solid white;
+            border-radius: 5px;
+
+        }
+
+        fieldset {
+            border: 2px solid white;
+
+        }
+
+        form {
+            background-color: gray;
+            padding: 7px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <a href="About us"><b>Student Registeration Form</b></a><br>
+    <fieldset>
+        <form>
+            <div class="list">
+                <label for="First Name">First Name:
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="First Name" id="First Name" placeholder="Enter your first name"> <br> <br>
+                <label for="Last Name">Last
+                    Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="Last Name" id="Last Name" placeholder="Enter your last name"><br><br>
+                <label
+                    for="Email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="Email" id="Email" placeholder="Enter your email"><br><br>
+                <label
+                    for="Mobile">Mobile:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="Mobile" id="Mobile" placeholder="only 11 digits are allowed"><br><br>
+            </div>
+            <label
+                for="Gender">Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="Radio" name="Gender" id="Gender">
+            <label for="Male">Male</label>
+            <input type="Radio" name="Gender" id="Gender">
+            <label for="Female">Female</label> <br><br>
+            <div class="List_1">
+                <label
+                    for="date">Date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="date" name="date" id="date"
+                    style="width: 70%; padding: 10px; border: 1px solid white; border-radius: 5px;"><br><br>
+                <label
+                    for="Address">Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <textarea name="Enter you Address" id="Address" cols="60" rows="10"
+                    style="width: 70%; padding: 10px;border:  1px solid white; border-radius: 5px;">Enter you Address</textarea><br><br>
+                <label
+                    for="City">City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>&nbsp
+                <input type="text" name="City" id="City"><br><br>
+                <label for="Area Pin">Area
+                    Pin:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="Area Pin" id="Area Pin"><br><br>
+                <label
+                    for="State">State:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="State" id="State"><br><br>
+            </div>
+
+            <div class="hello">
+                <label
+                    for="Qualifcation">Qualifcation:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <select id="Qualifcation">
+                    <option value="Qualifcation">Qualifcation</option>
+                    <option value="Matric">Matric</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="BS">BS</option>
+                    <option value="MS">MS</option>
+                </select><br><br>
+                <label for="Specialization">Specialization:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="checkbox" name="Specialization" id="Specialization">
+                <label for="Computer Science">Computer
+                    Science</label><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="Specialization" id="Specialization">
+                <label for="Computer Science">Information
+                    Technology</label><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="Specialization" id="Specialization">
+                <label
+                    for="Computer Science">BCA</label><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="Specialization" id="Specialization">
+                <label for="Computer Science">Software Engineering</label><br>
+            </div>
+            <div class="List_2">
+                <label
+                    for="Password">Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="Password" id="Password"><br><br>
+                <input type="submit" name="Registered" id="Registered" value="Registered"
+                    style="background-color: green; color: white;border: 1px solid green; border-radius: 5px; padding: 10px;">
+            </div>
+        </form>
+    </fieldset>
+</body>
+
+</html>
