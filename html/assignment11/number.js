@@ -1,0 +1,14 @@
+var pi=3.141;
+// console.log(pi.toFixed(0));
+// console.log(pi.toFixed(2));
+// console.log(pi.toPrecision(2));
+// console.log(pi.valueOf());
+// console.log(Number(true));
+// console.log(Number(new Date()));
+// console.log(parseInt("3 months"));
+// console.log(parseFloat("3.5 months"));
+// console.log(Number.MAX_VALUE);
+// console.log(Number .MIN_VALUE);
+// console.log(Number.NEGATIVE_INFINITY);
+ console.log(Number.POSITIVE_INFINITY);
+// console.log(Number.POSITIVE_value);
